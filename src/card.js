@@ -1,10 +1,12 @@
 import React from 'react';
 
-export function createCare(props) {
+function Card(props) {
     return (
-        <div className='Card'>
+        <div id={props.key} className='Card'>
             <h3>{props.title}</h3>
             <p>{props.content}</p>
         </div>
     );
 }
+
+export default Card();
