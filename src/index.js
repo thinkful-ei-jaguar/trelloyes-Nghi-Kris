@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react';
-import store from './store.js'
-import App from './App.js'
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App store={store.STORE} />, document.querySelector('#main'));
+import App from './App';
+import { STORE } from './store';
+
+ReactDOM.render(<App store={STORE} />, document.getElementById('root'));

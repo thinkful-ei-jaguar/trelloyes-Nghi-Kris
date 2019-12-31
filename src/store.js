@@ -1,4 +1,4 @@
-const STORE = {
+export const STORE = {
     lists: [
       {
         id: '1',
@@ -36,8 +36,4 @@ const STORE = {
       'l': { id: 'l', title: 'Twelfth card', content: 'lorem ipsum' },
       'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
     },
-  }
-
-  export default {
-      STORE
-  }
+  };
