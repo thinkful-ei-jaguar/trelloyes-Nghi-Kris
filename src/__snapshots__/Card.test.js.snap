@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Card UI 1`] = `
+<div
+  className="Card"
+>
+  <h3>
+    cardA
+  </h3>
+  <p>
+    stuff
+  </p>
+</div>
+`;

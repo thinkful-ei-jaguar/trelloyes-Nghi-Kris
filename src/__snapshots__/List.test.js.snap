@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List UI is consistent 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    Deck of Cards
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Ace
+      </h3>
+      <p>
+        Red Spade Ace
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <h3>
+        Queen
+      </h3>
+      <p>
+        Black Heart Queen
+      </p>
+    </div>
+     
+  </div>
+</section>
+`;

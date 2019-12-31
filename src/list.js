@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from './Card';
 
-import './list.css';
+import './List.css';
+import { string } from 'prop-types';
 
 /**
  * Will be passed through as STORE.lists[i].header = header
@@ -24,3 +25,4 @@ export default function List(props) {
         </section>
     );
 }
+
